@@ -22,7 +22,7 @@
         <div class="flex justify-between text-xl items-center max-w-5xl mx-auto">
             <div>
 
-                <img src="{{ asset('build/assets/bank.png') }}" alt="bank logo" width="150px">
+                <img src="{{ asset('images/bank.png') }}" alt="bank logo" width="150px">
 
             </div>
             <div class="space-x-5 text-secondary font-bold font-serif">
