@@ -12,12 +12,9 @@
                     <h1>Surname: <span class="text-light">{{ $account->surname }} </span></h1>
                     <h1>Balance: <span class="text-light">{{ $account->balance }} €</span></h1>
                     <h1>Credit Card Number: <span class="text-light">{{ $account->account }} </span></h1>
-
                 </div>
 
                 <div class="flex items-start gap-3">
-
-
 
                     <form action="{{ route('bank.withdraw.update', $account->id) }}" method="POST">
                         @csrf

@@ -44,7 +44,6 @@
 
                     <a href="{{ route('bank.index') }}"
                         class="mt-5 mr-10 items-center inline-block text-light text-center mb-10 text-xl bg-red-500 py-2 px-4 rounded-2xl font-bold border-white border-2 transform duration-500 hover:scale-101 shadow-md">Cancel
-
                     </a>
 
                     <button
