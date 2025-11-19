@@ -39,7 +39,7 @@ class BankController extends Controller
                 'surname' => $validated['surname'],
                 'identity_number' => $validated['identity_number'],
                 'balance' => 0,
-                'account' => 'LT'.fake()->numerify('##############'),
+                'account' => 'LT' . rand(10000000000000, 99999999999999),
             ]
         );
 
