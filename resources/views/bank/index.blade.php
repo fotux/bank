@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-    <section style="background-image: url('{{ asset('build/assets/bg-gray.jpg') }}')" class="bg-cover min-h-screen pb-20">
+    <section style="background-image: url('{{ asset('images/gr.jpg') }}')" class="bg-cover min-h-screen pb-20">
         <main class="max-w-5xl mx-auto flex flex-col">
 
             <h1 class="text-2xl font-bold text-center my-15"> Welcome to NovaBank — Open accounts, manage finances,
